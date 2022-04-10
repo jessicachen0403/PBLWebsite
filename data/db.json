@@ -17,14 +17,6 @@
       "id": 2
     },
     {
-      "seller": "Mona Lee",
-      "name": "Boot-cut Jeans",
-      "image": "/images/boot-cut-jeans.jpg",
-      "price": 40,
-      "description": "Nice shirt which create cotton material, perfect for a fixup.",
-      "id": 3
-    },
-    {
       "seller": "Kim Lee",
       "name": "Dress",
       "image": "/images/dress.jpg",
@@ -47,6 +39,14 @@
       "price": "45",
       "description": "Good pair of unripped jeans. Denim=Creativity.",
       "id": 7
+    },
+    {
+      "seller": "Mona Lee",
+      "name": "Boot-cut Jeans",
+      "image": "/images/boot-cut-jeans.jpg",
+      "price": "40",
+      "description": "Great material, hope the new owner can create something fun with it.",
+      "id": 8
     }
   ]
 }
