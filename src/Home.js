@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 import {useEffect} from "react";
 
 const Home = () => {
-  const { error, isPending, data: items } = useFetch('http://localhost:8000/items');
+  const { error, isPending, data: items } = useFetch('http://localhost:8000/items/');
 
   useEffect( () => {
         window.scrollTo(0, 0);

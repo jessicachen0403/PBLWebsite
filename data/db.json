@@ -39,6 +39,14 @@
       "price": "30",
       "description": "This is an amazing top and great for creating something fun!",
       "id": 6
+    },
+    {
+      "seller": "Jessica Chen",
+      "name": "Jeans",
+      "image": "/images/unripped-jeans.jpg",
+      "price": "45",
+      "description": "Good pair of unripped jeans. Denim=Creativity.",
+      "id": 7
     }
   ]
 }
