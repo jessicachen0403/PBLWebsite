@@ -17,6 +17,7 @@ const About = () => {
             <div className="about-resources">
                 <p>- Images form free images on unsplash by various photographers.</p>
                 <p>- Development Tools: ReactJS, Bootstrap, JSON Server</p>
+                <p>- Deployed Using Heroku</p>
                 <p>- The Net Ninja React Tutorial: github.com/iamshaunjp/Complete-React-Tutorial</p>
             </div>
         </div>
