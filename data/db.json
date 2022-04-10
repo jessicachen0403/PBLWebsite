@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "seller": "Jessica Chen",
+      "name": "White shoes",
+      "image": "/images/shoes.jpg",
+      "price": 100,
+      "description": "This is a white pair of sneakers, very good for running. Gently used.",
+      "id": 1
+    },
+    {
+      "seller": "Maci Wilson",
+      "name": "Black Shirt",
+      "image": "./images/black-shirt.jpg",
+      "price": 30,
+      "description": "Nice shirt which create cotton material, perfect for a fixup.",
+      "id": 2
+    },
+    {
+      "seller": "Michael K.",
+      "name": "New York Sweatshirt",
+      "image": "./images/sweatshirt.jpg",
+      "price": 40,
+      "description": "Nice shirt which create cotton material, perfect for a fixup.",
+      "id": 3
+    },
+    {
+      "seller": "Mona Lee",
+      "name": "Tanktop",
+      "image": "./images/tanktop.jpg",
+      "price": 40,
+      "description": "Nice shirt which create cotton material, perfect for a fixup.",
+      "id": 3
+    },
+    {
+      "seller": "Mona Lee",
+      "name": "Boot-cut Jeans",
+      "image": "./images/boot-cut-jeans.jpg",
+      "price": 40,
+      "description": "Nice shirt which create cotton material, perfect for a fixup.",
+      "id": 3
+    },
+    {
+      "seller": "Allison Frank",
+      "name": "Jean Shorts",
+      "image": "/images/shorts.jpg",
+      "description": "Ripped Pair of denim shorts.",
+      "id": 4
+    }
+  ]
+}

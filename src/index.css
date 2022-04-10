@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #011627;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #011627;
+}
+.content {
+  max-width: 1500px;
+  margin: 40px auto;
+  padding: 20px;
+  min-height: 750px;
+}
+
+.home h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+/* blog previews / list */
+.item-cards {
+  padding: 10px 16px;
+  margin: 30px 0;
+  border-bottom: 1px solid #fafafa;
+  margin-right: 40px;
+}
+.item-cards:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.item-cards a{
+  text-decoration: none;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #011627;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #011627;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.sell {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  outline: 2px solid #011627;
+}
+.sell label {
+  text-align: left;
+  display: block;
+}
+.sell h2 {
+  font-size: 20px;
+  color: #011627;
+  margin-bottom: 30px;
+}
+.sell input, .sell textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.sell button {
+  background: #011627;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card {
+  width:auto;
+  max-width: 300px;
+}
+
+.card-img {
+  height: 300px;
+  max-height: 500px;
+  width: auto;
+  max-width: 300px;
+}
+
+.item-cards card-text{
+  margin-top: 100px;
+}
+
+.about h2{
+  font-size: 40px;
+  color: #011627;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.about img{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.about-resources {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.footer {
+  background-color: #efefef;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.footer a{
+  text-decoration: none;
+  font-size: large;
+}
+
+.footer-about {
+  padding-bottom: 30px;
+}
+
+.footer-about a:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
