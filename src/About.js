@@ -24,7 +24,7 @@ const About = () => {
             <div className="owners">
                 <img src="/images/owners.jpg" alt="A family of six on a hiking trail"/>
                 <div>
-                    <p>The Smith family has been a member of the Lincoln community for the last 40 years.</p>
+                    <p>Lincoln's Resale was founded in 2020; however, the Smith family has been a member of the Lincoln community for the last 40 years.</p>
                     <p>"We have chosen Lincoln to raise the family because of the community. In the last couple of years, the world has been crazy.
                     Lincoln's Resale simply wants to bring some form of peace and learning into every Lincoln members' lives.
                     We want to promote new hobbies, arts and crafts, and family time.</p>
@@ -32,7 +32,7 @@ const About = () => {
             </div>
             <h2>Resources For Website Creation</h2>
             <div className="about-resources">
-                <p>- Images form free images on unsplash by various photographers.</p>
+                <p>- Images from free images on unsplash by various photographers.</p>
                 <p>- Development Tools: ReactJS, Bootstrap, JSON Server</p>
                 <p>- Deployed Using Heroku</p>
                 <p>- The Net Ninja React Tutorial: github.com/iamshaunjp/Complete-React-Tutorial</p>
