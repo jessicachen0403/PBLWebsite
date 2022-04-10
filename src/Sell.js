@@ -52,6 +52,12 @@ const Sell = () => {
           value={image}
           onChange={(e) => setImage(e.target.value)}
         ></input>
+        <label>Price:</label>
+        <input
+          required
+          value={price}
+          onChange={(e) => setPrice(e.target.value)}
+        ></input>
         <button>Sell</button>
       </form>
     </div>
