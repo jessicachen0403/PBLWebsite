@@ -1,17 +1,21 @@
-import { useHistory, useParams } from "react-router-dom";
+import {Link, useHistory, useParams} from "react-router-dom";
 import useFetch from "./useFetch";
+import {useState} from "react";
 
 const ItemDetails = () => {
   const { id } = useParams();
   const { data: item, error, isPending } = useFetch('http://localhost:8000/items/' + id);
   const history = useHistory();
+  const [purchased, setPurchased] = useState(false);
 
   const handleClick = () => {
     fetch('http://localhost:8000/items/' + item.id, {
       method: 'DELETE'
     }).then(() => {
-      history.push('/');
-    }) 
+      // history.push('/');
+      setPurchased(true);
+      window.scrollTo(0, 0);
+    })
   }
 
   return (
@@ -25,7 +29,9 @@ const ItemDetails = () => {
           <p>Seller: { item.seller }</p>
           <p>Price: { item.price }</p>
           <p>Description: { item.description }</p>
-          <button onClick={handleClick}>Purchase</button>
+          { !purchased && <button onClick={handleClick}>Purchase</button>}
+          { purchased && <button disabled>Purchased Successful</button>}
+          <Link to="/">Back Home</Link>
         </article>
       )}
     </div>

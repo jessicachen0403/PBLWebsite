@@ -17,22 +17,6 @@
       "id": 2
     },
     {
-      "seller": "Michael K.",
-      "name": "New York Sweatshirt",
-      "image": "/images/sweatshirt.jpg",
-      "price": 40,
-      "description": "Nice shirt which create cotton material, perfect for a fixup.",
-      "id": 3
-    },
-    {
-      "seller": "Mona Lee",
-      "name": "Tanktop",
-      "image": "/images/tanktop.jpg",
-      "price": 40,
-      "description": "Nice shirt which create cotton material, perfect for a fixup.",
-      "id": 3
-    },
-    {
       "seller": "Mona Lee",
       "name": "Boot-cut Jeans",
       "image": "/images/boot-cut-jeans.jpg",
@@ -47,6 +31,14 @@
       "price": "15",
       "description": "A nice dress for a casual day.",
       "id": 5
+    },
+    {
+      "seller": "Jackie Williams",
+      "name": "Tank Top",
+      "image": "/images/tanktop.jpg",
+      "price": "30",
+      "description": "This is an amazing top and great for creating something fun!",
+      "id": 6
     }
   ]
 }
