@@ -15,15 +15,17 @@ const ItemDetails = () => {
   }
 
   return (
-    <div className="blog-details">
+    <div className="item-details">
       { isPending && <div>Loading...</div> }
       { error && <div>{ error }</div> }
       { item && (
         <article>
-          <h2>{ item.title }</h2>
-          <p>Written by { item.author }</p>
-          <div>{ item.body }</div>
-          <button onClick={handleClick}>delete</button>
+          <h2>{ item.name }</h2>
+          <img src={ item.image } alt={ item.name }/>
+          <p>Seller: { item.seller }</p>
+          <p>Price: { item.price }</p>
+          <p>Description: { item.description }</p>
+          <button onClick={handleClick}>Purchase</button>
         </article>
       )}
     </div>

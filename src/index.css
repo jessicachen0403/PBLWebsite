@@ -40,7 +40,7 @@
   font-size: 40px;
 }
 
-/* blog previews / list */
+/* Shopping Items LIst */
 .item-cards {
   padding: 10px 16px;
   margin: 30px 0;
@@ -56,30 +56,46 @@
 }
 
 .item-list {
-  display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* blog details page */
-.blog-details h2 {
-  font-size: 20px;
+/* Details page */
+.item-details h2 {
+  font-size: 40px;
   color: #011627;
   margin-bottom: 10px;
+  text-align: center;
 }
-.blog-details div {
+.item-details p {
   margin: 20px 0;
+  text-align: center;
 }
-.blog-details button {
+
+.item-details img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.item-details button {
   background: #011627;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 20px;
 }
 
-/* create new blog form */
+/* create new selling item */
 .sell {
   max-width: 400px;
   margin: 0 auto;
