@@ -11,7 +11,7 @@
     {
       "seller": "Maci Wilson",
       "name": "Black Shirt",
-      "image": "./images/black-shirt.jpg",
+      "image": "/images/black-shirt.jpg",
       "price": 30,
       "description": "Nice shirt which create cotton material, perfect for a fixup.",
       "id": 2
@@ -19,7 +19,7 @@
     {
       "seller": "Michael K.",
       "name": "New York Sweatshirt",
-      "image": "./images/sweatshirt.jpg",
+      "image": "/images/sweatshirt.jpg",
       "price": 40,
       "description": "Nice shirt which create cotton material, perfect for a fixup.",
       "id": 3
@@ -27,7 +27,7 @@
     {
       "seller": "Mona Lee",
       "name": "Tanktop",
-      "image": "./images/tanktop.jpg",
+      "image": "/images/tanktop.jpg",
       "price": 40,
       "description": "Nice shirt which create cotton material, perfect for a fixup.",
       "id": 3
@@ -35,17 +35,18 @@
     {
       "seller": "Mona Lee",
       "name": "Boot-cut Jeans",
-      "image": "./images/boot-cut-jeans.jpg",
+      "image": "/images/boot-cut-jeans.jpg",
       "price": 40,
       "description": "Nice shirt which create cotton material, perfect for a fixup.",
       "id": 3
     },
     {
-      "seller": "Allison Frank",
-      "name": "Jean Shorts",
-      "image": "/images/shorts.jpg",
-      "description": "Ripped Pair of denim shorts.",
-      "id": 4
+      "seller": "Kim Lee",
+      "name": "Dress",
+      "image": "/images/dress.jpg",
+      "price": "15",
+      "description": "A nice dress for a casual day.",
+      "id": 5
     }
   ]
 }
