@@ -13,7 +13,7 @@ const Sell = () => {
     e.preventDefault();
     const item = { seller, name, image, price, description };
 
-    fetch('https://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items', {
+    fetch('http://localhost:8000/items/', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(item)
