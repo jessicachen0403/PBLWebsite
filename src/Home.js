@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h2>Trending Today</h2>
+      <h2>Trending Today!</h2>
       { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
       { items && <ItemCard items={items} /> }
