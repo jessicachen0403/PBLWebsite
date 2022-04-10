@@ -47,6 +47,22 @@
       "price": "40",
       "description": "Great material, hope the new owner can create something fun with it.",
       "id": 8
+    },
+    {
+      "seller": "Kendra Miller",
+      "name": "Jeans",
+      "image": "/images/acne-jeans.jpg",
+      "price": "32",
+      "description": "A good pair of jeans by itself, might just need to spice it up.",
+      "id": 9
+    },
+    {
+      "seller": "Jennifer Lamar",
+      "name": "Sweatshirt",
+      "image": "/images/sweatshirt.jpg",
+      "price": "42",
+      "description": "New York Sweatshirt, gently used.",
+      "id": 10
     }
   ]
 }
