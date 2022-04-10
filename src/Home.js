@@ -2,7 +2,7 @@ import ItemCard from "./ItemCard";
 import useFetch from "./useFetch";
 
 const Home = () => {
-  const { error, isPending, data: items } = useFetch('https://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items')
+  const { error, isPending, data: items } = useFetch('http://localhost:8000/items')
 
   return (
     <div className="home">
