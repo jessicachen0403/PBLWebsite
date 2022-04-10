@@ -156,12 +156,22 @@
 .owners {
   display: flex;
   align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  width: 50%;
 }
 
 .owners p{
   margin-bottom: 20px;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.25;
+}
+
+.mission-1 {
+  padding-top: 10px;
+  background-color: #add8e6;
+  margin: auto;
+  width: 90%;
 }
 
 .mission-2 {
@@ -169,6 +179,8 @@
   padding: 20px;
   outline: 1px dashed #011627;
   background-color: #efefef;
+  margin: auto;
+  width: 75%;
 }
 
 .phrases {
