@@ -17,28 +17,12 @@
       "id": 2
     },
     {
-      "seller": "Kim Lee",
-      "name": "Dress",
-      "image": "/images/dress.jpg",
-      "price": "15",
-      "description": "A nice dress for a casual day.",
-      "id": 5
-    },
-    {
       "seller": "Jackie Williams",
       "name": "Tank Top",
       "image": "/images/tanktop.jpg",
       "price": "30",
       "description": "This is an amazing top and great for creating something fun!",
       "id": 6
-    },
-    {
-      "seller": "Jessica Chen",
-      "name": "Jeans",
-      "image": "/images/unripped-jeans.jpg",
-      "price": "45",
-      "description": "Good pair of unripped jeans. Denim=Creativity.",
-      "id": 7
     },
     {
       "seller": "Mona Lee",
@@ -63,6 +47,22 @@
       "price": "42",
       "description": "New York Sweatshirt, gently used.",
       "id": 10
+    },
+    {
+      "seller": "Jessica Chen",
+      "name": "Dress",
+      "image": "/images/dress.jpg",
+      "price": "20",
+      "description": "A new dress that will great on anyone.",
+      "id": 11
+    },
+    {
+      "seller": "Jessica Chen",
+      "name": "Shoes",
+      "image": "/images/shoes.jpg",
+      "price": "100",
+      "description": "nice shoes, resdesignable",
+      "id": 12
     }
   ]
 }
