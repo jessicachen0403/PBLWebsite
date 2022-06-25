@@ -1,14 +1,6 @@
 {
   "items": [
     {
-      "seller": "Jessica Chen",
-      "name": "White shoes",
-      "image": "/images/shoes.jpg",
-      "price": 100,
-      "description": "This is a white pair of sneakers, very good for running. Gently used.",
-      "id": 1
-    },
-    {
       "seller": "Maci Wilson",
       "name": "Black Shirt",
       "image": "/images/black-shirt.jpg",
@@ -57,12 +49,20 @@
       "id": 11
     },
     {
-      "seller": "Jessica Chen",
-      "name": "Shoes",
-      "image": "/images/shoes.jpg",
-      "price": "100",
-      "description": "nice shoes, resdesignable",
-      "id": 12
+      "seller": "Jackson Elliot",
+      "name": "Worthy Shirt",
+      "image": "/images/worthy-shirt.jpg",
+      "price": "42",
+      "description": "Here it is",
+      "id": 13
+    },
+    {
+      "seller": "Maci Wilson",
+      "name": "Jeans",
+      "image": "/images/unripped-jeans.jpg",
+      "price": "51",
+      "description": "My favorite pair of jeans, however, it just no longer fits me. I would love to give it a new life.",
+      "id": 14
     }
   ]
 }

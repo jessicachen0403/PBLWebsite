@@ -8,7 +8,7 @@ const ItemCard = ({ items }) => {
         <div className="item-cards" key={item.id}>
           <Link to={`/items/${item.id}`}>
             <Card>
-              <Card.Img src={ item.image }/>
+              <Card.Img src={ item.image } alt={item.name}/>
               <Card.Text>Seller: { item.seller }</Card.Text>
               <Card.Text>Price: { item.price }</Card.Text>
             </Card>
