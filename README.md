@@ -19,3 +19,7 @@ You will also see any lint errors in the console.
 Run a fake API on port 8000 in order for fetch calls to go through.
 
 ### `npx json-server --watch data/db.json --port 8000`
+
+## Deployed using Heroku
+
+https://lincolns-resale.herokuapp.com/
