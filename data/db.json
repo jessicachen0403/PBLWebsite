@@ -63,6 +63,14 @@
       "price": "51",
       "description": "My favorite pair of jeans, however, it just no longer fits me. I would love to give it a new life.",
       "id": 14
+    },
+    {
+      "seller": "Alex Tess",
+      "name": "Shoes",
+      "image": "/images/shoes.jpg",
+      "price": "34",
+      "description": "I have loved this pair of shoes for a long time. I don't want something I love to be polluting our environment and community. Please bring it a new life.",
+      "id": 15
     }
   ]
 }

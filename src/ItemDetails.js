@@ -1,6 +1,7 @@
 import {Link, useHistory, useParams} from "react-router-dom";
 import useFetch from "./useFetch";
 import {useState} from "react";
+import {AiOutlineMail} from "react-icons/all";
 
 const ItemDetails = () => {
   const { id } = useParams();
@@ -28,7 +29,9 @@ const ItemDetails = () => {
         <article>
           <h2>{ item.name }</h2>
           <img src={ item.image } alt={ item.name }/>
-          <p>Seller: { item.seller }</p>
+          <span>
+            <p>Seller: { item.seller } <AiOutlineMail /></p>
+          </span>
           <p>Price: { item.price }</p>
           <p>Description: { item.description }</p>
           { !purchased && <button onClick={handleClick}>Purchase</button>}
