@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <h2>Meet the Owners</h2>
             <div className="owners">
-                <img src="/images/owners.jpg/" alt="A family of six on a hiking trail"/>
+                <img src="/images/owners.jpg" alt="A family of six on a hiking trail"/>
                 <div>
                     <p>Lincoln's Resale was founded in 2020; however, the Smith family has been a member of the Lincoln community for the last 40 years.</p>
                     <p>"We have chosen Lincoln to raise the family because of the community. In the last couple of years, the world has been crazy.
