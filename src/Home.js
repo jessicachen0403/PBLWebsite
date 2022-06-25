@@ -4,7 +4,7 @@ import {useEffect} from "react";
 
 const Home = () => {
   // const { error, isPending, data: items } = useFetch('http://localhost:8000/items/');
-  const { error, isPending, data: items } = useFetch('http://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items/');
+  const { error, isPending, data: items } = useFetch('https://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items/');
 
   useEffect( () => {
         window.scrollTo(0, 0);

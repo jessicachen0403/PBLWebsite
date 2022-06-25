@@ -5,13 +5,13 @@ import {useState} from "react";
 const ItemDetails = () => {
   const { id } = useParams();
   // const { data: item, error, isPending } = useFetch('http://localhost:8000/items/' + id);
-  const { data: item, error, isPending } = useFetch('http://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items/' + id);
+  const { data: item, error, isPending } = useFetch('https://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items/' + id);
   // const history = useHistory();
   const [purchased, setPurchased] = useState(false);
 
   const handleClick = () => {
     // fetch('http://localhost:8000/items/' + item.id, {
-    fetch('http://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items/' + item.id, {
+    fetch('https://my-json-server.typicode.com/jessicachen0403/PBLWebsite2022/items/' + item.id, {
       method: 'DELETE'
     }).then(() => {
       // history.push('/');
